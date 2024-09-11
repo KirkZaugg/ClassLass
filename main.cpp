@@ -2,7 +2,7 @@
 #include"shape.h"
 
 void printDetails(Shape inshape, int shapenum) {
-    std::cout << "The area of Shape " << shapenum << " is " << rectangle.getArea() << ", the width is " << rectangle.getWidth() << ", and the height is " << rectangle.getHeight() << ".\n";
+    std::cout << "The area of Shape " << shapenum << " is " << inshape.getArea() << ", the width is " << inshape.getWidth() << ", and the height is " << inshape.getHeight() << ".\n";
 }
 
 int main() {
